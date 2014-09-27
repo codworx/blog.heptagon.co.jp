@@ -19,4 +19,8 @@ git push
 ```
 git clone git@github.com:youyo/blog.heptagon.co.jp.git
 bundle install --path=vendor/bundle
+cat <<EOL> ~/.aws/blog-config
+AWS_ACCESS_KEY_ID='access_key'
+AWS_SECRET_ACCESS_KEY='secret_access_key'
+EOL
 ```
